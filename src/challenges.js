@@ -50,10 +50,17 @@ function highestCount(bigger) {
 return contador
 }
 
-
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+  let catUm = mouse - cat1;
+  let catDois = mouse - cat2;
+  
+    if (catUm % catDois === 0) {
+      return ("os gatos trombam e o rato foge")
+    }
+    else if (catUm > catDois) {
+      return ('cat1');
+    }else return ('cat2');
 }
 
 // Desafio 8
