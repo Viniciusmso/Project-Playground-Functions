@@ -80,11 +80,17 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(phrase) {
+
+  let newPhrase = phrase.replaceAll(/a/gi, 1).replaceAll(/e/gi, 2).replaceAll(/i/gi, 3).replaceAll(/o/gi, 4).replaceAll(/u/gi, 5);
+
+   return newPhrase;
 }
-function decode() {
-  // seu código aqui
+
+function decode(Secretphrase) {
+  let correctPhrase = Secretphrase.replaceAll(/1/gi, 'a').replaceAll(/2/gi, 'e').replaceAll(/3/gi, 'i').replaceAll(/4/gi, 'o').replaceAll(/5/gi, 'u');
+
+  return correctPhrase;
 }
 
 // Desafio 10
