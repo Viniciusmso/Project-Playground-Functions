@@ -94,9 +94,18 @@ function decode(Secretphrase) {
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tech, name) {
+tech.sort();
+let array = [];
+if(tech.length === 0){
+array = "Vazio!";
+}else
+for(let index = 0; index < tech.length; index += 1) {
+array.push({name: name, tech: tech[index]})
 }
+return array;
+}
+
 
 module.exports = {
   calcArea,
