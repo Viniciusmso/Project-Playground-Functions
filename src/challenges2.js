@@ -18,9 +18,7 @@ return true;
 function largerNumber(number){
 for(let index = 0; index < number.length; index += 1) {
 if(number[index] > 9 || number[index] < 0) {
-return true
-}
-}
+return true} }
 }
 
 function repeatedNumber(number){
@@ -47,11 +45,27 @@ return (ddd + space + firstFive + '-' + lastFours);
 }
 
 generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1])
+
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+
+if(absolutSum(lineA, lineB, lineC) && sumOfTheMeasures(lineA, lineB, lineC)) {
+return true;
+}else return false;
+
 }
 
+function absolutSum(lineA, lineB, lineC){
+if(Math.abs(lineA) >  Math.abs(lineB) - Math.abs(lineC)) {
+  return true 
+}
+}
+
+function sumOfTheMeasures(lineA, lineB, lineC) {
+
+if(Math.abs(lineA) <  Math.abs(lineB) + Math.abs(lineC)) {
+  return true; }
+}
 // Desafio 13
 function hydrate() {
   // seu código aqui
