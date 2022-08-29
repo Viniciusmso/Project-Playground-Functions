@@ -67,9 +67,20 @@ if(Math.abs(lineA) <  Math.abs(lineB) + Math.abs(lineC)) {
   return true; }
 }
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(glassWater) {
+
+  let numbers = glassWater.replace(/','/g,"").replace(/[ˆa-z-ç]/gi, '');
+  let sum = 0;
+  for(let index = 0; index < numbers.length; index += 1) {
+    if(numbers[index] && parseInt(numbers[index])){
+      sum += parseInt(numbers[index]);
+    }
+  }
+  if(sum <= 1) {
+    return sum + ' copo de água'
+  } else return sum + ' copos de água';
 }
+
 
 module.exports = {
   generatePhoneNumber,
