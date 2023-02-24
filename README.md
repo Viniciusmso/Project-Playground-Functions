@@ -65,4 +65,4 @@ Concluido :heavy_check_mark:
 
 
 
-# Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela [Trybe](https://www.betrybe.com). 
+Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela [Trybe](https://www.betrybe.com). 
