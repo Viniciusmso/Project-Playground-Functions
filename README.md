@@ -49,14 +49,18 @@ Para executar um arquivo de teste específico, utilize npm test nomeDoArquivoDeT
 <details>
   <summary><strong>Fontes de pesquisa 🧑‍💻</strong></summary><br />
 
-- [JavaScript](.com)
+- [JavaScript](JavaScript.com)
 - [W3Schools](https://www.w3schools.com/js/)
 - [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [StackOverflow](https://stackoverflow.com)
 
+</details>
 
-
-## Status do Projeto: Concluido :heavy_check_mark:
 <hr>
 
-Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela Trybe. 
+## Status do Projeto:
+
+Concluido :heavy_check_mark:
+
+
+Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela [Trybe](https://www.betrybe.com). 
