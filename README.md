@@ -1,13 +1,28 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+Playground Functions 🛝 
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Implementei códigos em funções que resolvem problemas com respostas pré-determinadas. Utilizando a lógica de programação para a análise de cada problema e resposta esperada.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Todas as funções estão declaradas nos arquivos challenges.js e challenges2.js. 
+
+Testes Unitários 🛠️
+
+Todos os requisitos do projeto são testados automaticamente por Jest.
+Para rodar o avaliador automático localmente, execute o comando abaixo:
+
+Para executar todos os testes utilize:
+-- npm test 
+
+ou
+Para executar um arquivo de teste específico, utilize npm test nomeDoArquivoDeTeste:
+
+-- npm test compareTrue
+
+
+Fontes de pesquisa:
+
+* JavaScript.com
+* W3Schools
+* MDN
+* StackOverflow
+
+Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela Trybe. 
