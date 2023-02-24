@@ -57,10 +57,12 @@ Para executar um arquivo de teste específico, utilize npm test nomeDoArquivoDeT
 </details>
 
 <hr>
-
-## Status do Projeto:
+<details>
+  <summary><strong>Status do Projeto</strong></summary><br />
 
 Concluido :heavy_check_mark:
+</details>
 
 
-Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela [Trybe](https://www.betrybe.com). 
+
+# Projeto desenvolvido no modulo de fundamentos do curso de desenvolvimento web full stack ministrado pela [Trybe](https://www.betrybe.com). 
