@@ -21,13 +21,10 @@ Para rodar o avaliador automático localmente, execute o comando abaixo:
 
 Para executar todos os testes utilize:
 
-- npm test 
+```bash
+npm test
+```
 
-ou
-
-Para executar um arquivo de teste específico, utilize npm test nomeDoArquivoDeTeste:
-
-- npm test compareTrue
  </details>
 
 <hr>
@@ -35,14 +32,17 @@ Para executar um arquivo de teste específico, utilize npm test nomeDoArquivoDeT
     <summary><strong>Como rodar a aplicação ⏯️</strong></summary><br />
 
 1. No terminal, clone o projeto:
-    - git clone git@github.com:Viniciusmso/Project-Playground-Functions.git
+    ```bash
+    git clone git@github.com:Viniciusmso/Project-Playground-Functions.git
+    ```
 2. Entre na pasta do projeto:
-    - cd Project-Playground-Functions
+    ```bash
+    cd Project-Playground-Functions
+    ```
 3. Instale as dependências:
- - npm install.
-4. No terminal, rode o comando:
- - npm start
-
+    ```bash
+    npm install
+    ```
  </details>
 
 <hr>
